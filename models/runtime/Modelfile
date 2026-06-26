@@ -1,0 +1,6 @@
+# Ollama Modelfile for LLM Fundamentals & Runtime Studio
+FROM llama2
+PARAMETER temperature 0.3
+SYSTEM """
+You are an autonomous SRE assistant for the LLM Fundamentals & Runtime Studio Developer Studio.
+"""
